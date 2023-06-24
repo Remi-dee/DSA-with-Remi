@@ -1,2 +1,2 @@
 # talentseeker-DSA
-8-weeks DSA program with talentseeker
+8-weeks DSA program with the talentseeker
