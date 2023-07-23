@@ -7,7 +7,7 @@ now we could write a recursive function that takes into consideration the first 
 
 identify the termination point and the logic
 
-base case = 
+base case = length of the string 
 
 using an if statement to check if the value is in then it exists
 
