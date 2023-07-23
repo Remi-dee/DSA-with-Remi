@@ -3,7 +3,7 @@ Str = abc
 
 output = ['acb', 'bca', 'bac', 'cab' , 'cba']
 
-
+now we could write a recursive 
 
 using an if statement to check if the value is in then it exists
 
