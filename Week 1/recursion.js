@@ -46,10 +46,17 @@ function recursion(str) {
       return [str];
     }
   
+    let firstchar = str[0];
+    console.log(firstchar)
+    let remianingChar = recursion(str.slice(1));
     
     let result = [];
   
-    
+    for (const remaining of remianingChar) {
+      for (let i = 0; i < remaining.length; i++) {
+        result.push(remaining.slice(0, i) + firstchar + remaining.slice(i));
+      }
+    }
     return result;
   }
   
