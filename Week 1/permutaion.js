@@ -3,7 +3,7 @@ Str = abc
 
 using an if statement to check if the value is in then it exists
 
-ch
+a way to change the order of each character occurence
 
 */
 
