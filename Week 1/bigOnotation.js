@@ -10,14 +10,7 @@ class Node {
   }
 }
 
-let l23 = new Node("Dan")
-let l24 = new Node("ffn")
-let l25 = new Node("Daffn")
-let l26 = new Node("sss")
-l23.next = l24
-l24.next = l25
 
-console.log(l24)
 
 class LinkedList {
   constructor() {
