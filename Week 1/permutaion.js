@@ -1,7 +1,7 @@
 /*Problem: Generate all possible permutations of a given string using recursion.
 Str = abc
 
-output = ['acb', '' ]
+output = ['acb', 'bca', 'bac',  ]
 
 using an if statement to check if the value is in then it exists
 
