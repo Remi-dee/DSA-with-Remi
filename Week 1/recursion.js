@@ -52,7 +52,7 @@ function recursion(str) {
     
     let result = [];
   
-    for (const remaining of remianingChar) {
+    for (const remaining of remainingChar) {
       for (let i = 0; i < remaining.length; i++) {
         result.push(remaining.slice(0, i) + firstchar + remaining.slice(i));
       }
