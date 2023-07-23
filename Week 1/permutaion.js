@@ -16,5 +16,8 @@ having "a" as anchor abc, acb
 
 */
 
+function perm () {
 
+
+}
 
