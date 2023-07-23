@@ -18,7 +18,9 @@ having "a" as anchor abc, acb
 
 function permutation (str) {
 const characters = str.split("")
-
+for( const i of characters) {
+    
+}
 
 }
 
