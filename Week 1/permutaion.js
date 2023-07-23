@@ -9,7 +9,18 @@ identify the termination point and the logic
 
 base case = length of the string <= 1 then return an array of  a single string
 
-base case 
+base case returns a single element array 
+
+
+
+
+
+
+
+
+
+
+
 
 using an if statement to check if the value is in then it exists
 
