@@ -38,8 +38,8 @@ having "a" as anchor abc, acb
 */
 
 function permutation (str) {
-const characters = str.split("")
-const result = []
+const characters = str.split(" ")
+let result = []
 for( const i of characters) {
 
 }
