@@ -50,6 +50,7 @@ function recursion(str) {
     console.log(firstchar)
     let remainingChar = recursion(str.slice(1));
     
+    
     let result = [];
   
     for (const remaining of remainingChar) {
