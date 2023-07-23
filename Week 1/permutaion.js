@@ -3,6 +3,8 @@ Str = abc
 
 output = ['acb', 'bca', 'bac', 'cab' , 'cba']
 
+
+
 using an if statement to check if the value is in then it exists
 
 a way to change the order of each character occurence
