@@ -11,7 +11,7 @@ base case = length of the string <= 1 then return an array of  a single string
 
 base case returns a single element array 
 
-
+have an anchor 
 
 
 
