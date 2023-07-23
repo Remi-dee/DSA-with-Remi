@@ -49,7 +49,7 @@ function recursion(str) {
     let firstchar = str[0];
     console.log(firstchar)
     let remainingChar = recursion(str.slice(1));
-    
+    console.log()
     
     let result = [];
   
