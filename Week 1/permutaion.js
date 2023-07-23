@@ -3,7 +3,9 @@ Str = abc
 
 output = ['acb', 'bca', 'bac', 'cab' , 'cba']
 
-now we could write a recursive 
+now we could write a recursive function that takes into consideration the first charaacter
+
+
 
 using an if statement to check if the value is in then it exists
 
