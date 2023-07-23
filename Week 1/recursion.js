@@ -41,7 +41,7 @@
  */
 
 function recursion(str) {
-    console.log(str.length, str);
+    console.log(str);
     if (str.length <= 1) {
       return [str];
     }
