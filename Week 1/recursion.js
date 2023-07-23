@@ -55,6 +55,7 @@ function recursion(str) {
   
     for (const remaining of remainingChar) {
       for (let i = 0; i < remaining.length; i++) {
+        console.log(remaining.slice(0,i))
         result.push(remaining.slice(0, i) + firstchar + remaining.slice(i));
       }
     }
