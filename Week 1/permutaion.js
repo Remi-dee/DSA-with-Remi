@@ -17,7 +17,7 @@ having "a" as anchor abc, acb
 */
 
 function permutation (str) {
-
+str.split
 
 }
 
