@@ -10,7 +10,7 @@ we need to have an anchor
 we need to have a starting point 
 having "a" as anchor abc, acb
 "b" as anchor bca... or bac
-""
+"c" as anchor cba or cab ..
 
 
 */
