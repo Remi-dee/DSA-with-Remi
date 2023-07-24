@@ -63,3 +63,27 @@ function recursion(str) {
   }
   
   console.log(recursion("abc"));
+
+
+  function recursion(str) {
+    if (str.length <= 1) {
+      return [str];
+    }
+  
+    let firstchar = str[0];
+    let remainingChar = recursion(str.slice(1));
+  
+    let result = [];
+  
+    for (const remaining of remainingChar) {
+      for (let i = 0; i <= remaining.length; i++) { // Start from i = 0 and include the end of the string.
+        result.push(remaining.slice(0, i) + firstchar + remaining.slice(i));
+      }
+    }
+  
+    return result;
+  }
+  
+  const inputString = "abc";
+  const result = recursion(inputString);
+  console.log(result);
