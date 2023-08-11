@@ -1,2 +1,2 @@
-# talentseeker-DSA
-8-weeks DSA program with the talentseeker
+# DSA with me
+This is my personal DSA workspace where i learn and think everything DSA.
