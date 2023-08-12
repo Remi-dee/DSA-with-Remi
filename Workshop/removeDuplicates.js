@@ -9,6 +9,13 @@ input = [1, 2, 3]
 
 output=[]
 
+iterate through input
+
+detect the duplicate,
+save them in a new array or modify input with new array
+then get the length of the new array and return it
+
+
 
 */
 
