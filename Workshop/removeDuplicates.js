@@ -19,5 +19,22 @@ then get the length of the new array and return it
 
 */
 
+function removeDuplicates(nums) {
+    if (nums.length === 0) {
+        return 0; 
+    }
+ 
+    let uniqueArray = [];
 
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] !== nums[i+1]) {
+        nums.splice(i, 1)
+      }
+  }
+console.log(nums)
+  let k = nums.length;
+console.log(k)
+  return k;
+}
 
+removeDuplicates([0,0,1,1,2,2,3,3,4]);
